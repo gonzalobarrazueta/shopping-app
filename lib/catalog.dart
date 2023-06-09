@@ -23,13 +23,29 @@ class _catalogState extends State<catalog> {
       ),
       body: Column(
         children: [
-          Container(
-            height: 170,
-            width: double.infinity,
-            decoration: BoxDecoration(
-                color: Colors.green,
-                borderRadius: BorderRadius.circular(20)
-            ),
+          Expanded(
+              child: ListView(
+                children: [
+                  Container(
+                    height: 200,
+                    margin: const EdgeInsets.all(10),
+                    child: Container(
+                      decoration: BoxDecoration(
+                          color: Colors.green,
+                          borderRadius: BorderRadius.circular(20),
+                          boxShadow: const [
+                            BoxShadow(
+                                color: Colors.black26,
+                                offset: Offset(5.0, 5.0),
+                                blurRadius: 5.0
+                            )
+                          ]
+                      ),
+                      padding: const EdgeInsets.all(10),
+                    )
+                  ),
+                ],
+              )
           )
         ],
       ),
