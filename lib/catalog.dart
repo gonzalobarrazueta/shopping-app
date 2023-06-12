@@ -50,7 +50,7 @@ class _catalogState extends State<catalog> {
                         Container(
                           width: 200,
                           margin: const EdgeInsets.all(10),
-                          child: const Column(
+                          child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
@@ -69,6 +69,14 @@ class _catalogState extends State<catalog> {
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white
                                 ),
+                              ),
+                              SizedBox(height: 10),
+                              ElevatedButton(
+                                  onPressed: () {},
+                                  child: Text('Comprar'),
+                                  style: ElevatedButton.styleFrom(
+                                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5))
+                                  )
                               )
                             ]
                           ),
@@ -100,7 +108,7 @@ class _catalogState extends State<catalog> {
                             Container(
                               width: 200,
                               margin: const EdgeInsets.all(10),
-                              child: const Column(
+                              child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
@@ -119,6 +127,14 @@ class _catalogState extends State<catalog> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white
                                       ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    ElevatedButton(
+                                        onPressed: () {},
+                                        child: Text('Comprar'),
+                                        style: ElevatedButton.styleFrom(
+                                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5))
+                                        )
                                     )
                                   ]
                               ),
@@ -150,7 +166,7 @@ class _catalogState extends State<catalog> {
                             Container(
                               width: 200,
                               margin: const EdgeInsets.all(10),
-                              child: const Column(
+                              child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
@@ -169,6 +185,14 @@ class _catalogState extends State<catalog> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white
                                       ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    ElevatedButton(
+                                        onPressed: () {},
+                                        child: Text('Comprar'),
+                                        style: ElevatedButton.styleFrom(
+                                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5))
+                                        )
                                     )
                                   ]
                               ),
@@ -200,7 +224,7 @@ class _catalogState extends State<catalog> {
                             Container(
                               width: 200,
                               margin: const EdgeInsets.all(10),
-                              child: const Column(
+                              child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
@@ -219,6 +243,14 @@ class _catalogState extends State<catalog> {
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white
                                       ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    ElevatedButton(
+                                        onPressed: () {},
+                                        child: Text('Comprar'),
+                                        style: ElevatedButton.styleFrom(
+                                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5))
+                                        )
                                     )
                                   ]
                               ),
