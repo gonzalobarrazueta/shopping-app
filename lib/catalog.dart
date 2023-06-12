@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'item.dart';
+
 class catalog extends StatefulWidget {
   const catalog({Key? key}) : super(key: key);
 
@@ -72,7 +74,12 @@ class _catalogState extends State<catalog> {
                               ),
                               SizedBox(height: 10),
                               ElevatedButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(builder: (context) => item())
+                                    );
+                                  },
                                   child: Text('Comprar'),
                                   style: ElevatedButton.styleFrom(
                                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5))
@@ -130,7 +137,12 @@ class _catalogState extends State<catalog> {
                                     ),
                                     SizedBox(height: 10),
                                     ElevatedButton(
-                                        onPressed: () {},
+                                        onPressed: () {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => item())
+                                          );
+                                        },
                                         child: Text('Comprar'),
                                         style: ElevatedButton.styleFrom(
                                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5))
@@ -188,7 +200,12 @@ class _catalogState extends State<catalog> {
                                     ),
                                     SizedBox(height: 10),
                                     ElevatedButton(
-                                        onPressed: () {},
+                                        onPressed: () {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => item())
+                                          );
+                                        },
                                         child: Text('Comprar'),
                                         style: ElevatedButton.styleFrom(
                                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5))
@@ -246,7 +263,12 @@ class _catalogState extends State<catalog> {
                                     ),
                                     SizedBox(height: 10),
                                     ElevatedButton(
-                                        onPressed: () {},
+                                        onPressed: () {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(builder: (context) => item())
+                                          );
+                                        },
                                         child: Text('Comprar'),
                                         style: ElevatedButton.styleFrom(
                                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5))
